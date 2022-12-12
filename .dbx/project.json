@@ -1,0 +1,15 @@
+{
+    "environments": {
+        "default": {
+            "profile": "az-fieldeng-eastus2",
+            "storage_type": "mlflow",
+            "properties": {
+                "workspace_directory": "/Shared/dbx/adb_dbx_demo",
+                "artifact_location": "dbfs:/Shared/dbx/projects/adb_dbx_demo"
+            }
+        }
+    },
+    "inplace_jinja_support": false,
+    "failsafe_cluster_reuse_with_assets": false,
+    "context_based_upload_for_execute": false
+}
